@@ -1,4 +1,9 @@
-package "libshadow-ruby1.8"
+if node["platform"] == "ubuntu"
+  case node["platform_version"]
+  when "12.04"
+    package "libshadow-ruby1.8"
+  end
+end
 
 data_bag('users').each do |login|
   u             = data_bag_item("users", login)

@@ -6,7 +6,10 @@ own basic user creation needs.
 
 ## Supported Platforms
 
-- Ubuntu 12.04 (later versions may work, but have not been tested on).
+- Ubuntu 12.04
+- Ubuntu 14.04
+
+Other platforms may work, but have not been tested.
 
 
 ## Recipes
